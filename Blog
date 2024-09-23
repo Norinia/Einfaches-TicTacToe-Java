@@ -1,0 +1,6 @@
+Idee:
+Der Spieler bekommt auf der Console ein Speilbrett mit Zahlen anzegeigt. Mit diesen Zahlen kann der Spieler angeben
+wo sein Zug plaziert wenden soll.
+
+Die initalisierung von dem 2D Array war recht einfach. Auch das Ausgeben dessen.
+
