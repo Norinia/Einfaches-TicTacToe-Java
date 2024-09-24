@@ -1,5 +1,5 @@
 # TicTacToe-Spiel-Java
-
+✖️⭕✖️
 # Aufbau
 Beim Start des Spiels wird dem Nutzer ein 3x3 Spielfeld mit Zahlen angezeigt.<br/>
 Daraufhin wird der Nutzer, der X spielt, aufgefordert, die Zahl einzugeben, wo ein X platziert werden soll. <br/>
