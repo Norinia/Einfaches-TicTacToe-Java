@@ -61,25 +61,11 @@ public class TicTacToe {
 
 
 
-        /*public static int checkWinner() {
-                System.out.println("Winner?");
-            if (winner > 0) {
-                System.out.print("X?");
-                winnerTrue = 1;
-                return winnerTrue;
-            }else if (winner > 8) {
-                System.out.print("O?");
-                winnerTrue=2;
-                return winnerTrue;
-                 }
-            else return winnerTrue;
-        }
-         */
         public static boolean gewonnen(){ // mit dem Methoden aufruf wird t in der hatGewonnen Methode ein wert gegeben
             return hatGewonnen("X") || hatGewonnen("O");
         }
 
-        public static boolean hatGewonnen(String t){ // t bekommt hier den Wert von dem Methoden aufruf
+        public static boolean hatGewonnen(String t){ // t bekommt hier den Wert von dem Methoden Aufruf
             // 0. Zeile horizontal
             if(board[0][0].equals(t) && board[0][1].equals(t) && board[0][2].equals(t))
                 return true;
@@ -111,7 +97,7 @@ public class TicTacToe {
         public static void main(String[] args) {
             player = "X";
             board = new String[][] {{"1","2","3"}, {"4","5","7"}, {"6","8","9"}};
-            System.out.println("Willkommen beim unübersichtlichten TicTacToe");
+            System.out.println("Willkommen beim unübersichtlichen TicTacToe");
 
                 while (!gewonnen()) {
                     ausgabe();
